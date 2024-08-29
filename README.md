@@ -1,2 +1,2 @@
 # three-kingdoms-go
-Three Kingdoms Games
+Three Kingdoms Game
