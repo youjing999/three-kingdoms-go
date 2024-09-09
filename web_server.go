@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-func main() {
+func WebServer() {
 	host := config.File.MustValue("web_server", "host", "127.0.0.1")
 	port := config.File.MustValue("web_server", "port", "8088")
 
