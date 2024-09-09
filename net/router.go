@@ -1,7 +1,6 @@
 package net
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -52,8 +51,8 @@ func (r *Router) Run(req *WsMsgReq, rsp *WsMsgRsp) {
 
 	for _, g := range r.group {
 		if g.prefix == prefix {
-			//g.exec(name, req, rsp)
-			fmt.Println(name)
+			g.exec(name, req, rsp)
+			//fmt.Println(name)
 		}
 	}
 }
